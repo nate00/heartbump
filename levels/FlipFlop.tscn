@@ -1,0 +1,293 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Platform.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Cam.tscn" type="PackedScene" id=3]
+[ext_resource path="res://SFX.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Phage.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Trophy.tscn" type="PackedScene" id=6]
+[ext_resource path="res://levels/Level.gd" type="Script" id=7]
+
+[node name="FlipFlop" type="Node2D" groups=[
+"levels",
+]]
+script = ExtResource( 7 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( -288, 72 )
+flip_flopper = true
+
+[node name="SFX" parent="." instance=ExtResource( 4 )]
+
+[node name="Trophy" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1768, 168 )
+
+[node name="Cam" parent="." instance=ExtResource( 3 )]
+position = Vector2( -336, 0 )
+
+[node name="Platform2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 72, 176 )
+
+[node name="Platform3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 120, 176 )
+
+[node name="Platform4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 168, 176 )
+
+[node name="Platform5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 216, 176 )
+
+[node name="Platform6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 264, 176 )
+
+[node name="Platform20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 312, 176 )
+
+[node name="Platform12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24, 8 )
+
+[node name="Platform11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 72, 8 )
+
+[node name="Platform10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 120, 8 )
+
+[node name="Platform9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 168, 8 )
+
+[node name="Platform8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 216, 8 )
+
+[node name="Platform7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 264, 8 )
+
+[node name="Platform16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 312, 8 )
+
+[node name="Platform56" parent="." instance=ExtResource( 2 )]
+position = Vector2( -312, 176 )
+
+[node name="Platform55" parent="." instance=ExtResource( 2 )]
+position = Vector2( -264, 176 )
+
+[node name="Platform54" parent="." instance=ExtResource( 2 )]
+position = Vector2( -216, 176 )
+
+[node name="Platform53" parent="." instance=ExtResource( 2 )]
+position = Vector2( -168, 176 )
+
+[node name="Platform52" parent="." instance=ExtResource( 2 )]
+position = Vector2( -120, 176 )
+
+[node name="Platform49" parent="." instance=ExtResource( 2 )]
+position = Vector2( -312, 8 )
+
+[node name="Platform48" parent="." instance=ExtResource( 2 )]
+position = Vector2( -264, 8 )
+
+[node name="Platform47" parent="." instance=ExtResource( 2 )]
+position = Vector2( -216, 8 )
+
+[node name="Platform59" parent="." instance=ExtResource( 2 )]
+position = Vector2( -456, 8 )
+
+[node name="Platform58" parent="." instance=ExtResource( 2 )]
+position = Vector2( -408, 8 )
+
+[node name="Platform57" parent="." instance=ExtResource( 2 )]
+position = Vector2( -360, 8 )
+
+[node name="Platform80" parent="." instance=ExtResource( 2 )]
+position = Vector2( -456, 176 )
+
+[node name="Platform79" parent="." instance=ExtResource( 2 )]
+position = Vector2( -408, 176 )
+
+[node name="Platform64" parent="." instance=ExtResource( 2 )]
+position = Vector2( -360, 176 )
+
+[node name="Platform46" parent="." instance=ExtResource( 2 )]
+position = Vector2( -168, 8 )
+
+[node name="Platform45" parent="." instance=ExtResource( 2 )]
+position = Vector2( -120, 8 )
+
+[node name="Platform44" parent="." instance=ExtResource( 2 )]
+position = Vector2( -72, 8 )
+
+[node name="Platform43" parent="." instance=ExtResource( 2 )]
+position = Vector2( -24, 8 )
+
+[node name="Platform14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 512, 8 )
+
+[node name="Platform13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 560, 8 )
+
+[node name="Platform18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 608, 8 )
+
+[node name="Platform17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 656, 8 )
+
+[node name="Platform27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 704, 8 )
+
+[node name="Platform15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 752, 8 )
+
+[node name="Platform26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 800, 8 )
+
+[node name="Platform25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 848, 8 )
+
+[node name="Platform42" parent="." instance=ExtResource( 2 )]
+position = Vector2( 896, 8 )
+
+[node name="Platform41" parent="." instance=ExtResource( 2 )]
+position = Vector2( 944, 8 )
+
+[node name="Platform73" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1328, 8 )
+
+[node name="Platform78" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1568, 8 )
+
+[node name="Platform66" parent="." instance=ExtResource( 2 )]
+position = Vector2( 968, 128 )
+
+[node name="Platform65" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1016, 128 )
+
+[node name="Platform68" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1024, 80 )
+
+[node name="Platform67" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1072, 80 )
+
+[node name="Platform63" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1136, 8 )
+
+[node name="Platform62" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1184, 8 )
+
+[node name="Platform61" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1232, 8 )
+
+[node name="Platform60" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1280, 8 )
+
+[node name="Platform72" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1376, 8 )
+
+[node name="Platform71" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1424, 8 )
+
+[node name="Platform70" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1472, 8 )
+
+[node name="Platform69" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1520, 8 )
+
+[node name="Platform77" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1616, 8 )
+
+[node name="Platform76" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1664, 8 )
+
+[node name="Platform75" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1712, 8 )
+
+[node name="Platform74" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1760, 8 )
+
+[node name="Platform19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 656, 176 )
+
+[node name="Platform24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 336, 128 )
+
+[node name="Platform23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 384, 128 )
+
+[node name="Platform22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 432, 128 )
+
+[node name="Platform21" parent="." instance=ExtResource( 2 )]
+position = Vector2( 480, 128 )
+
+[node name="Platform29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 528, 128 )
+
+[node name="Platform28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 576, 128 )
+
+[node name="Platform30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 624, 128 )
+
+[node name="Platform32" parent="." instance=ExtResource( 2 )]
+position = Vector2( 704, 176 )
+
+[node name="Platform31" parent="." instance=ExtResource( 2 )]
+position = Vector2( 752, 176 )
+
+[node name="Platform34" parent="." instance=ExtResource( 2 )]
+position = Vector2( 800, 176 )
+
+[node name="Platform33" parent="." instance=ExtResource( 2 )]
+position = Vector2( 848, 176 )
+
+[node name="Platform38" parent="." instance=ExtResource( 2 )]
+position = Vector2( 896, 176 )
+
+[node name="Platform37" parent="." instance=ExtResource( 2 )]
+position = Vector2( 944, 176 )
+
+[node name="Platform51" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1232, 176 )
+
+[node name="Platform50" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1280, 176 )
+
+[node name="Phage5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 424, 104 )
+
+[node name="Phage4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 448, 104 )
+
+[node name="Phage9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 472, 104 )
+
+[node name="Phage8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 496, 104 )
+
+[node name="Phage7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 520, 104 )
+
+[node name="Phage" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1304, 32 )
+
+[node name="Phage2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1280, 32 )
+
+[node name="Phage12" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1216, 152 )
+
+[node name="Phage10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1512, 56 )
+
+[node name="Phage3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1512, 32 )
+
+[node name="Phage11" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1640, 32 )
+
+[node name="Phage13" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1616, 32 )
+
+[node name="Phage14" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1640, 56 )
+[connection signal="died" from="Player" to="." method="on_died"]
+[connection signal="on_win_start" from="Trophy" to="." method="on_win_start"]
+[connection signal="won" from="Trophy" to="." method="on_won"]

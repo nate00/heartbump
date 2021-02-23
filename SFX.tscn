@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://sfx/heartbeat.wav" type="AudioStream" id=1]
+[ext_resource path="res://SFX.gd" type="Script" id=2]
+[ext_resource path="res://sfx/hihat 1.wav" type="AudioStream" id=3]
+
+[node name="SFX" type="Node"]
+script = ExtResource( 2 )
+
+[node name="Heartbeat" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = 11.107
+
+[node name="HiHat" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -5.0

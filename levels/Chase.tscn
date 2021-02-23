@@ -1,0 +1,275 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Platform.tscn" type="PackedScene" id=2]
+[ext_resource path="res://SpikeWall.tscn" type="PackedScene" id=3]
+[ext_resource path="res://SFX.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Phage.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Trophy.tscn" type="PackedScene" id=6]
+[ext_resource path="res://levels/Level.gd" type="Script" id=7]
+
+[node name="Chase" type="Node2D" groups=[
+"levels",
+]]
+script = ExtResource( 7 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 216, 160 )
+
+[node name="Platform" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24, 176 )
+
+[node name="Platform2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 72, 176 )
+
+[node name="Platform4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 120, 176 )
+
+[node name="Platform3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 168, 176 )
+
+[node name="Platform6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 216, 176 )
+
+[node name="Platform5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 264, 176 )
+
+[node name="Platform8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 312, 176 )
+
+[node name="Platform7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 360, 176 )
+
+[node name="Platform13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 408, 176 )
+
+[node name="Platform12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 456, 176 )
+
+[node name="Platform11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 504, 176 )
+
+[node name="Platform10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 552, 176 )
+
+[node name="Platform9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 600, 176 )
+
+[node name="Platform18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 648, 176 )
+
+[node name="Platform17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 696, 176 )
+
+[node name="Platform16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 744, 176 )
+
+[node name="Platform15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 792, 176 )
+
+[node name="Platform14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 840, 176 )
+
+[node name="Platform20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 888, 176 )
+
+[node name="Platform19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 936, 176 )
+
+[node name="Platform22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 984, 176 )
+
+[node name="Platform21" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1032, 176 )
+
+[node name="Platform26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1080, 176 )
+
+[node name="Platform25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1128, 176 )
+
+[node name="Platform24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1176, 176 )
+
+[node name="Platform23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1224, 176 )
+
+[node name="Platform30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1272, 176 )
+
+[node name="Platform29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1320, 176 )
+
+[node name="Platform28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1368, 176 )
+
+[node name="Platform27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1416, 176 )
+
+[node name="Platform36" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1464, 176 )
+
+[node name="Platform35" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1512, 176 )
+
+[node name="Platform34" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1560, 176 )
+
+[node name="Platform33" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1608, 176 )
+
+[node name="Platform32" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1656, 176 )
+
+[node name="Platform31" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1704, 176 )
+
+[node name="Platform39" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1752, 176 )
+
+[node name="Platform38" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1800, 176 )
+
+[node name="Platform37" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1848, 176 )
+
+[node name="Phage" parent="." instance=ExtResource( 5 )]
+position = Vector2( 384, 160 )
+
+[node name="Phage2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 440, 160 )
+
+[node name="Phage3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 504, 160 )
+
+[node name="Phage4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 624, 72 )
+
+[node name="Phage5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 648, 72 )
+
+[node name="Phage6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 672, 72 )
+
+[node name="Phage7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 744, 160 )
+
+[node name="Phage10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 936, 136 )
+
+[node name="Phage12" parent="." instance=ExtResource( 5 )]
+position = Vector2( 936, 112 )
+
+[node name="Phage13" parent="." instance=ExtResource( 5 )]
+position = Vector2( 936, 88 )
+
+[node name="Phage11" parent="." instance=ExtResource( 5 )]
+position = Vector2( 936, 160 )
+
+[node name="Phage25" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1288, 136 )
+
+[node name="Phage24" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1288, 112 )
+
+[node name="Phage22" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1288, 160 )
+
+[node name="Phage27" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1312, 88 )
+
+[node name="Phage33" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1336, 136 )
+
+[node name="Phage32" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1336, 112 )
+
+[node name="Phage30" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1336, 160 )
+
+[node name="Phage29" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1528, 136 )
+
+[node name="Phage26" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1528, 112 )
+
+[node name="Phage23" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1528, 160 )
+
+[node name="Phage28" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1576, 56 )
+
+[node name="Phage36" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1600, 56 )
+
+[node name="Phage37" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1624, 56 )
+
+[node name="Phage40" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1648, 56 )
+
+[node name="Phage39" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1672, 56 )
+
+[node name="Phage38" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1696, 56 )
+
+[node name="Phage41" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1720, 56 )
+
+[node name="Phage44" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1744, 56 )
+
+[node name="Phage43" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1768, 56 )
+
+[node name="Phage35" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1808, 136 )
+
+[node name="Phage34" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1808, 112 )
+
+[node name="Phage31" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1808, 160 )
+
+[node name="Phage17" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1128, 136 )
+
+[node name="Phage16" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1128, 56 )
+
+[node name="Phage15" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1128, 32 )
+
+[node name="Phage19" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1200, 56 )
+
+[node name="Phage18" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1200, 32 )
+
+[node name="Phage21" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1200, 160 )
+
+[node name="Phage20" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1200, 136 )
+
+[node name="Phage14" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1128, 160 )
+
+[node name="Phage8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 800, 72 )
+
+[node name="Phage9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 824, 72 )
+
+[node name="SpikeWall" parent="." groups=[
+"levels",
+] instance=ExtResource( 3 )]
+
+[node name="SFX" parent="." instance=ExtResource( 4 )]
+
+[node name="Trophy" parent="." instance=ExtResource( 6 )]
+position = Vector2( 1888, 72 )
+[connection signal="died" from="Player" to="." method="on_died"]
+[connection signal="on_win_start" from="Trophy" to="." method="on_win_start"]
+[connection signal="won" from="Trophy" to="." method="on_won"]
